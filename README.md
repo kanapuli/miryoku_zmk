@@ -39,6 +39,7 @@ The available alpha layouts are:
 - AZERTY
 - BEAKL15
 - Colemak
+- Colemak-DH (`ColemakDH`) on Corne Choc Pro BT
 - Colemak-DHk (`ColemakDHK`)
 - Dvorak
 - Halmak
@@ -47,6 +48,8 @@ The available alpha layouts are:
 - Workman
 
 QWERTY is selected by default. The selected layout applies to both halves.
+
+Corne Choc Pro BT builds use vi navigation. Piantor Pro BT and Sofle Choc Pro BT builds use Miryoku's default navigation.
 
 ### Download the firmware
 
@@ -98,7 +101,7 @@ Supported common options include:
 
 | Option | Values | Default behaviour |
 | --- | --- | --- |
-| `alphas` | `AZERTY`, `BEAKL15`, `Colemak`, `ColemakDHK`, `Dvorak`, `Halmak`, `QWERTY`, `QWERTZ`, `Workman` | Colemak-DH |
+| `alphas` | `AZERTY`, `BEAKL15`, `Colemak`, `ColemakDH`, `ColemakDHK`, `Dvorak`, `Halmak`, `QWERTY`, `QWERTZ`, `Workman` | Colemak-DH |
 | `extra` | The same layout values as `alphas` | QWERTY |
 | `tap` | The same layout values as `alphas` | Colemak-DH |
 | `nav` | `invertedT`, `vi` | Miryoku home-row navigation |
