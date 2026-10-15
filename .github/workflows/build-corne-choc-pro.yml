@@ -28,3 +28,4 @@ jobs:
       extra_shield: '["sharp_mip"]'
       alphas: ${{ format('["{0}"]', inputs.alphas) }}
       nav: '["vi"]'
+      kconfig: '["CONFIG_ZMK_POINTING=y"]'

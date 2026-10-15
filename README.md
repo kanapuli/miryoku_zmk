@@ -49,7 +49,9 @@ The available alpha layouts are:
 
 QWERTY is selected by default. The selected layout applies to both halves.
 
-Corne Choc Pro BT builds use vi navigation. Piantor Pro BT and Sofle Choc Pro BT builds use Miryoku's default navigation.
+Corne Choc Pro BT builds use vi navigation and enable ZMK mouse emulation with `CONFIG_ZMK_POINTING=y`. Piantor Pro BT and Sofle Choc Pro BT builds use Miryoku's default navigation and leave mouse emulation off.
+
+After flashing a build that enables mouse emulation, remove the keyboard from the host's Bluetooth devices and pair it again. Over USB, unplug the keyboard and plug it back in. The host keeps the previous HID description until it sees the keyboard as a new device, so pointer movement stays disabled until then.
 
 ### Download the firmware
 
